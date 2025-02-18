@@ -61,13 +61,13 @@ const DEFAULT_SILICONFLOW_URL = isApp
 
 const DEFAULT_ACCESS_STATE = {
   accessCode: "",
-  useCustomConfig: false,
+  useCustomConfig: true,
 
   provider: ServiceProvider.OpenAI,
 
   // openai
-  openaiUrl: DEFAULT_OPENAI_URL,
-  openaiApiKey: "",
+  openaiUrl: "https://dashscope.aliyuncs.com/compatible-mode",
+  openaiApiKey: "sk-95d1cdacea6c4b748430e484008e2ab9",
 
   // azure
   azureUrl: "",

@@ -23,7 +23,7 @@ export function ModelConfigList(props: {
 
   return (
     <>
-      <ListItem title={Locale.Settings.Model}>
+      {/* <ListItem title={Locale.Settings.Model}>
         <Select
           aria-label={Locale.Settings.Model}
           value={value}
@@ -48,7 +48,7 @@ export function ModelConfigList(props: {
             </optgroup>
           ))}
         </Select>
-      </ListItem>
+      </ListItem>*/}
       <ListItem
         title={Locale.Settings.Temperature.Title}
         subTitle={Locale.Settings.Temperature.SubTitle}

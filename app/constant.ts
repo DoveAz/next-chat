@@ -642,7 +642,7 @@ const siliconflowModels = [
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
 export const DEFAULT_MODELS = [
-  ...openaiModels.map((name) => ({
+  /*...openaiModels.map((name) => ({
     name,
     available: true,
     sorted: seq++, // Global sequence sort(index)
@@ -795,8 +795,8 @@ export const DEFAULT_MODELS = [
       providerType: "siliconflow",
       sorted: 14,
     },
-  })),
-] as const;
+  })),*/
+] as any[];
 
 export const CHAT_PAGE_SIZE = 15;
 export const MAX_RENDER_MSG_COUNT = 45;
