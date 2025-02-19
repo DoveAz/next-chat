@@ -92,6 +92,8 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
       LlmIcon = BotIconChatglm;
     }
 
+    LlmIcon = BotIconDeepseek;
+
     return (
       <div className="no-dark">
         <LlmIcon className="user-avatar" width={30} height={30} />
