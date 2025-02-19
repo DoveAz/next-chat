@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
-import ChatGptIcon from "../icons/chatgpt.svg";
+import DeepseekIcon from "../icons/llm-icons/deepseek.svg";
 import AddIcon from "../icons/add.svg";
 import DeleteIcon from "../icons/delete.svg";
 import MaskIcon from "../icons/mask.svg";
@@ -252,7 +252,7 @@ export function SideBar(props: { className?: string }) {
       <SideBarHeader
         title="游盛集团机器人"
         subTitle="让数字世界释放无限可能"
-        logo={<ChatGptIcon />}
+        logo={<DeepseekIcon />}
         shouldNarrow={shouldNarrow}
       >
         <div className={styles["sidebar-header-bar"]}>
