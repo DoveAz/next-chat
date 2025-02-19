@@ -60,7 +60,8 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  customModels: "deepseek-v3,deepseek-r1",
+  customModels:
+    "deepseek-v3,deepseek-r1,qwen-omni-turbo-0119,qwen-omni-turbo,qwen-omni-turbo-latest,qwen-max-0125,qwen-max,qvq-72b-preview",
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
