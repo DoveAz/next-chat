@@ -135,7 +135,7 @@ export const getServerSideConfig = () => {
   const disableGPT4 = !!process.env.DISABLE_GPT4;
   let customModels =
     process.env.CUSTOM_MODELS ??
-    "deepseek-v3,deepseek-r1,qwen-omni-turbo-0119,qwen-omni-turbo,qwen-omni-turbo-latest,qwen-max-0125,qwen-max,qvq-72b-preview";
+    "deepseek-v3,deepseek-r1,qwen-omni-turbo-0119,qwen-omni-turbo,qwen-omni-turbo-latest,qwen-max-0125,qwen-max,qvq-72b-preview,wanx2.1-t2i-turbo";
   let defaultModel = process.env.DEFAULT_MODEL ?? "deepseek-v3";
   let visionModels = process.env.VISION_MODELS ?? "qvq-72b-preview";
 
