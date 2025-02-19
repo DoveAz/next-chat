@@ -133,9 +133,11 @@ export const getServerSideConfig = () => {
   }
 
   const disableGPT4 = !!process.env.DISABLE_GPT4;
-  let customModels = process.env.CUSTOM_MODELS ?? "";
-  let defaultModel = process.env.DEFAULT_MODEL ?? "";
-  let visionModels = process.env.VISION_MODELS ?? "";
+  let customModels =
+    process.env.CUSTOM_MODELS ??
+    "deepseek-v3,deepseek-r1,qwen-omni-turbo-0119,qwen-omni-turbo,qwen-omni-turbo-latest,qwen-max-0125,qwen-max,qvq-72b-preview";
+  let defaultModel = process.env.DEFAULT_MODEL ?? "deepseek-v3";
+  let visionModels = process.env.VISION_MODELS ?? "qvq-72b-preview";
 
   if (disableGPT4) {
     if (customModels) customModels += ",";
