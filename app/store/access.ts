@@ -67,7 +67,7 @@ const DEFAULT_ACCESS_STATE = {
 
   // openai
   openaiUrl: "https://dashscope.aliyuncs.com/compatible-mode",
-  openaiApiKey: "sk-95d1cdacea6c4b748430e484008e2ab9",
+  openaiApiKey: "sk-a3f0d18f72a34271baa006f1078101a9",
 
   // azure
   azureUrl: "",
