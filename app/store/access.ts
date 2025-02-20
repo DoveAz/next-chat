@@ -66,8 +66,8 @@ const DEFAULT_ACCESS_STATE = {
   provider: ServiceProvider.OpenAI,
 
   // openai
-  openaiUrl: "https://dashscope.aliyuncs.com/compatible-mode",
-  openaiApiKey: "sk-a3f0d18f72a34271baa006f1078101a9",
+  openaiUrl: "http://172.16.101.32:1277/api",
+  openaiApiKey: "123",
 
   // azure
   azureUrl: "",
