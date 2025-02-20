@@ -12,6 +12,7 @@ import MaskIcon from "../icons/mask.svg";
 import McpIcon from "../icons/mcp.svg";
 import DragIcon from "../icons/drag.svg";
 import DiscoveryIcon from "../icons/discovery.svg";
+import BookIcon from "../icons/book.svg";
 
 import Locale from "../locales";
 
@@ -287,6 +288,20 @@ export function SideBar(props: { className?: string }) {
             onClick={() => setshowDiscoverySelector(true)}
             shadow
           />
+          <a
+            href="http://172.16.101.34/"
+            style={{
+              textDecoration: "none",
+            }}
+            target="_blank"
+          >
+            <IconButton
+              icon={<BookIcon />}
+              text="知识库"
+              shadow
+              className={styles["sidebar-bar-button"]}
+            />
+          </a>
         </div>
         {showDiscoverySelector && (
           <Selector
